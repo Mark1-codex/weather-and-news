@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Nav{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 12;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100vw;
+    align-items: center;
+}
+.Logo-section{
+    margin-left: 150px;
+    margin-right: 111px;
+    margin-top: 12px;
+    margin-bottom: 12px;    
+}
+.Central-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 42px;
+    align-items: center;
+}
+.Account-section{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 27px;
+    margin-left: 369px;
+}
+.Signup-button{
+    font-family: "Montserrat Alternates", sans-serif;
+    background-color: #FFB36C;
+    border-radius: 25px;
+    width: 89px;
+    height: 35px;
+}
+.Account-icon{
+    width: 50px;
+    height: 50px;
+}
