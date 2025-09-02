@@ -8,6 +8,13 @@ const News = ({}) => {
   const newsFive = fetch('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=f266f6c19d834a799da92e1b860c9e12')
   return (
     <div className="News">
+      <h2 className="news-title">Top business and marketing news today</h2>
+      <div className="news-cards">
+        <div className="news-cards-item">
+          <img src="" alt="" className="cards-item-poster"/>
+          <h3 className="cards-item-subtitle">{newsOne.title}</h3>
+        </div>
+      </div>
     </div>
   );
 };
