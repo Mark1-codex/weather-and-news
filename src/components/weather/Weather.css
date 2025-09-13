@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+}
+.weather-card{
+    width: 320px;
+    height: 430px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e8e8e8;
+}
+.weather-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.card-titles{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    row-gap: 98px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.weather-time{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.weather-time{
+    align-self: center;
+}
+.weather-icon{
+    width: 105px;
+    height: 105px;
+    align-self: center;
+}
+.weather-temperature{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.weather-hourly-forecast{
+    width: 114px;
+    height: 28px;
+    align-self: center;
+    font-size: 12px;
+    background-color: #ffb36c;
+    border-radius: 25px;
+    border: none;
+}
+.weather-hourly-forecast:hover{
+    background-color: #C98D51;
+    cursor: pointer;
+}
+.weather-settings-centralsection-button{
+    width: 99px;
+    height: 28px;
+    font-size: 10px;
+    background-color: #ffb36c;
+    border: none;
+    border-radius: 25px;
+    margin-left: 38px;
+    margin-right: 37px;
+}
+.weather-settings-centralsection-button:hover{
+    background-color: #C98D51;
+    cursor: pointer;
+}
+.weather-settings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather-settings-rightsection-trashicon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;   /* Reduced from 20px */
+    margin-left: 10px;    /* Reduced from 37px */
+}
+.weather-settings-rightsection-trashicon:hover{
+    cursor: pointer;
+    background-color: #dadada;
+}
+.weather-settings-leftsection-refresh{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.weather-settings-leftsection-refresh:hover{
+    cursor: pointer;
+    background-color: #dadada;
+}
+.weather-settings-leftsection-heart{
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+}
+.weather-settings-leftsection-heart:hover{
+    cursor: pointer;
+    background-color: #dadada;
+}

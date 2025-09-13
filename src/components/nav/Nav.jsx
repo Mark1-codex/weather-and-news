@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nav.css"
-import navLogo from "./nav-logo.svg"
+import navLogo from "./navlogo.svg"
 import { VscAccount } from "react-icons/vsc";
 const Nav = () => {
   return (
