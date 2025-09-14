@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css"
 import instagram from "./socials/instagram.svg"
 import facebook from "./socials/facebook.svg"
 import whatsapp from "./socials/whatsapp.svg"

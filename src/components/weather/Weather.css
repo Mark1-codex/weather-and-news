@@ -106,3 +106,37 @@
     cursor: pointer;
     background-color: #dadada;
 }
+.weather-search {
+  width: 500px;
+  height: 42px;
+  margin: 20px auto; /* center it and reduce spacing */
+  display: flex;
+  justify-content: center;
+}
+.weather-search-input{
+    color: #878787;
+    background-color: #d9d9d9;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 455px;
+    height: 25px;
+    border: none;
+}
+.weather-search-btn{
+    background-color: #ffb36c;
+     border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 25px;
+}
+.Weather {
+  min-height: 100vh; /* make sure it fills the screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center horizontally */
+  background-image: linear-gradient(to bottom, black, rgb(7, 5, 66), rgb(53, 69, 147), white);
+  padding-top: 50px; /* small spacing from top */
+}

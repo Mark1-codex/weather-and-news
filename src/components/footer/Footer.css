@@ -2,7 +2,24 @@
     width: 90px;
     height:42px;
     padding-left: 150px;
-    padding-right: 103px;
-    padding-top: 40px;
-    padding-bottom: 77px;
+    padding-right: 70px;
+}
+.Footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffb36c;
+    align-items: center;
+    width: 100vw;
+}
+.footer-center{
+    margin-left: 103px;
+    margin-right: 103px;
+}
+.footer-center-address{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-center-addressDetails{
+    font-size: 10px;
+    font-weight: 400;
 }
